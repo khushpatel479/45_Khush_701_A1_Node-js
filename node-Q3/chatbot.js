@@ -1,4 +1,3 @@
-// chatbot.js
 const responses = {
   hello: "Hello! Welcome to the Bookstore chatbot. How can I help you today?",
   books: "We have fiction, non-fiction, fantasy, mystery, and science fiction books.",

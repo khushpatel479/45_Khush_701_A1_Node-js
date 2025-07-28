@@ -2,11 +2,9 @@ const unzipper = require('unzipper');
 const fs = require('fs');
 const path = require('path');
 
-// Absolute path to your zip file
-const zipFilePath = 'D:\ict\ict-3\nodejs\OSWD-main\62_Rutvik_Variya_701_A1\node-Q4\files_to_zip.zip';
+const zipFilePath = 'D:\ict\ict-3\nodejs\OSWD-main\khush_patel\node-Q4\files_to_zip.zip';
 
-// Destination folder for extraction
-const extractToFolder = 'D:\ict\ict-3\nodejs\OSWD-main\62_Rutvik_Variya_701_A1\node-Q5\files_to_zip.zip';
+const extractToFolder = 'D:\ict\ict-3\nodejs\OSWD-main\khush_patel\node-Q5\files_to_zip.zip';
 
 async function unzipFile(zipPath, extractPath) {
   try {
